@@ -1,0 +1,26 @@
+package EstruturaDados;
+import java.util.LinkedList;
+import java.util.Queue;
+public class Fila {
+
+	public static void main(String[] args) {
+		Queue<Integer> fila = new LinkedList<Integer>();
+		
+		for(int i=0;i<=10;i++) {
+			fila.add(i);
+		}
+		System.out.println("\nPriemeiro elemento da fila: "+fila.peek());
+		
+		System.out.println("\nRemover elemento: "+fila.remove());
+		
+		System.out.println("\nFila atualizada: "+fila);
+		
+		System.out.println("\nAdicionar elemento 11: "+fila.add(11));
+		
+		System.out.println("\nExibir fila atualizada: "+fila);
+		
+		System.out.println("\nExibir o primeiro elemento da fila: "+fila.peek());
+		
+		
+	}
+}

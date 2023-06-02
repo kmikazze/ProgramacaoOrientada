@@ -1,0 +1,10 @@
+package LacosRepeticao;
+import java.util.Scanner;
+public class LacoExerc1 {
+
+	public static void main(String[] args) {
+		int num1,num2;
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package LacosRepeticao;
+import java.util.Scanner;
+public class Laco3Exerc1 {
+
+	public static void main(String[] args) {
+		int num,soma=0;
+		Scanner leia = new Scanner(System.in);
+		
+		do {
+			num=leia.nextInt();
+			num++;
+			soma=soma+num;
+			System.out.println("\nDigite um número: ");
+		}while(num<=0);
+		System.out.println("A soma dos números positivos é: "+soma);
+		}
+	}

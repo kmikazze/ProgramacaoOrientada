@@ -1,0 +1,30 @@
+package EstruturaDados;
+import java.util.Queue;
+import java.util.LinkedList;
+import java.util.Scanner;
+public class FilaExercicio {
+
+	public static void main(String[] args) {
+		Queue<String> fila = new LinkedList<String>();
+		Scanner leia = new Scanner(System.in);
+		Integer num;
+		String nome;
+		
+		System.out.println("\t		MENU\n\t1 - Adicionar cliente na fila\n\t2 - Listar todos os clientes"
+				+ "\n\t3 - Retirar cliente da fila\n\t0 - Sair");
+		num=leia.nextInt();
+		switch(num) {
+			case 1:
+				System.out.println("Digite seu nome: ");
+				nome=leia.next();
+				fila.add(nome);
+			case 2:
+				System.out.println("Fila: "+fila);
+				break;
+			case 3:
+				System.out.println("Digite o nome do cliente a ser removido: ");
+		}
+	}
+
+}
+

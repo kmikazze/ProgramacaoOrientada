@@ -1,0 +1,17 @@
+package LacosRepeticao;
+import java.util.Scanner;
+public class Laco1Exerc2 {
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int num;
+		
+		for(int i=0;i<=10;i++) {
+			System.out.println("Digite o "+i+" número: ");
+			num=leia.nextInt();
+		}
+		for(int i=0;i<10;i++) {
+			
+		}
+	}
+}

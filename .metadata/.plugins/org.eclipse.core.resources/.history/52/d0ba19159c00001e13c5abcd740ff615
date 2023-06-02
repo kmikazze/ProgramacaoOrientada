@@ -1,0 +1,16 @@
+package LacosRepeticao;
+import java.util.Scanner;
+public class Laco2Exerc2 {
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int idade,sexo,categoria,backend,frontend;
+		String continua="Sim";
+		
+		System.out.println();
+		while(!continua.equals("Não")) {
+			
+		}
+	}
+
+}

@@ -1,0 +1,22 @@
+package Collection;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.HashSet;
+public class Array2Exerc2 {
+
+	public static void main(String[] args) {
+		Set<Integer> setNumeros = new HashSet<>();
+		Scanner leia = new Scanner(System.in);
+		int num;
+		
+		setNumeros.add(9);
+		setNumeros.add(9);
+		setNumeros.add(9);
+		setNumeros.add(9);
+		setNumeros.add(9);
+		setNumeros.add(9);
+		setNumeros.add(9);
+		setNumeros.add(9);
+	}
+
+}

@@ -1,0 +1,11 @@
+package LacosRepeticao;
+import java.util.Scanner;
+public class For {
+
+	public static void main(String[] args) {
+		String nome1,nome2,nome3;
+		int num;
+		Scanner leia = new Scanner(System.in);
+	}
+
+}

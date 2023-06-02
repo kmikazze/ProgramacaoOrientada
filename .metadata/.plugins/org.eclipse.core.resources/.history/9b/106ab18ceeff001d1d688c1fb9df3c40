@@ -1,0 +1,11 @@
+package EstruturaDados;
+import java.util.Stack;
+import java.util.Scanner;
+public class PilhaExercicio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package LacosRepeticao;
+import java.util.Scanner;
+public class Laco1Exerc2 {
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int num,soma;
+		
+		System.out.println("Digite o");
+	}
+
+}

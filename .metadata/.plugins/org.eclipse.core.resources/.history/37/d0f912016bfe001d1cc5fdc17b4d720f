@@ -1,0 +1,10 @@
+package VetoreMatriz;
+import java.util.Scanner;
+public class Matriz2Exerc1 {
+
+	public static void main(String[] args) {
+		int matriz [][] = new int [][];
+
+	}
+
+}

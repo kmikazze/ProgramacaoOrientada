@@ -1,0 +1,11 @@
+package VetoreMatriz;
+
+public class Vetor {
+
+	public static void main(String[] args) {
+		String vetorCachorros[] = {"Boxer","Pastor A","Pinscher","Husky","Corgi"};
+		//int vetor[] = {8,9,0}; ----> declaração de inteiros.
+		System.out.println("");
+	}
+
+}

@@ -1,0 +1,17 @@
+package Collection;
+import java.util.Scanner;
+import java.util.Collections;
+import java.util.ArrayList;
+public class Array1Exerc1 {
+
+	public static void main(String[] args) {
+		ArrayList<String> cores = new ArrayList<>();
+		Scanner leia = new Scanner(System.in);
+		
+		for(int cor = 0;cor<5;cor++) {
+			System.out.println("Digite uma cor: ");
+			
+		}
+	}
+
+}

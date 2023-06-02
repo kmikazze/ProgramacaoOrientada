@@ -1,0 +1,13 @@
+package EstruturaDados;
+import java.util.LinkedList;
+import java.util.Queue;
+public class Fila {
+
+	public static void main(String[] args) {
+		Queue<Integer> fila = new LinkedList<Integer>();
+		
+		for(int posicao=0;posicao<=10;posicao++);
+		fila.add(10);
+	}
+
+}

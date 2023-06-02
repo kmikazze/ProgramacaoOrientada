@@ -1,0 +1,12 @@
+package Collection;
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Iterator;
+public class Array2Exerc1 {
+
+	public static void main(String[] args) {
+		ArrayList<Integer>numeros =new ArrayList<>();
+		
+	}
+
+}

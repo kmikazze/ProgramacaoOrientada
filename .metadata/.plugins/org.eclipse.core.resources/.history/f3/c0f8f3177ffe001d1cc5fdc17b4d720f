@@ -1,0 +1,30 @@
+package VetoreMatriz;
+import java.util.Scanner;
+public class Vetor1Exerc2 {
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int vetor[]=new int [10];
+		int soma=0;
+		float media=0;
+		
+		for(int num=0;num<vetor.length;num++) {
+			System.out.println("Digite um número: ");
+			num=leia.nextInt();
+			soma+=vetor[num];
+			media=soma/10;
+			}
+		System.out.println("Elementos nos índices ímpares : ");
+		for(int num=0;num<vetor.length;num++) {
+			if(num%2==1) {
+				System.out.println(vetor[num]);
+			if(num/2==0) {
+				System.out.println("Elementos nos índices pares : "+vetor[num]);
+				}
+			}
+			
+		}
+		
+	}
+	
+}

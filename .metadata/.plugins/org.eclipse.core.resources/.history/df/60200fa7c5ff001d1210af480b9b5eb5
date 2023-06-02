@@ -1,0 +1,15 @@
+package EstruturaDados;
+import java.util.Stack;
+public class Pilha {
+
+	public static void main(String[] args) {
+		Stack<String> pilha = new Stack<String>();
+		
+		pilha.push("O Assassinato do Expresso do Oriente");
+		pilha.push("Alquimista");
+		pilha.push("Como Influenciar pessoas");
+		pilha.push("Persépolis");
+		pilha.push("Um Estudo em Vermelho");
+	}
+
+}

@@ -1,0 +1,15 @@
+package VetoreMatriz;
+import java.util.Scanner;
+public class Vetor1Exerc2 {
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int vetor[]=new int [10];
+		float media;
+		
+		for(int num=0;num<vetor.length;num++);
+		System.out.println("Digite um número: ");
+		num=leia.next();
+	}
+
+}

@@ -1,0 +1,18 @@
+package LacosRepeticao;
+import java.util.Scanner;
+public class Laco1Exerc2 {
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int num,soma;
+		
+		for(int i=0;i<=10;i++) {
+			System.out.println("Digite o "+i+" número: ");
+			num=leia.nextInt();
+		if(num%2==0) {
+			System.out.println("Total de números pares: "+);
+			}
+		}
+
+	}
+}

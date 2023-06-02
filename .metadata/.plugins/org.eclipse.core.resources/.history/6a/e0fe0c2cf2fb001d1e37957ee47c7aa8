@@ -1,0 +1,15 @@
+package LacosRepeticao;
+import java.util.Scanner;
+public class Laco2Exerc1 {
+
+	public static void main(String[] args) {
+		int idade,maiorAge;
+		String loop="<21";
+		Scanner leia = new Scanner(System.in);
+		
+		System.out.println("Digite uma idade: ");
+		idade=leia.nextInt();
+		
+		while(loop.equals(<21));
+	}
+}

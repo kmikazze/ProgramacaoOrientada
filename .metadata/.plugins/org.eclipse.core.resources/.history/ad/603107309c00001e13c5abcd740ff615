@@ -1,0 +1,22 @@
+package LacosRepeticao;
+import java.util.Scanner;
+public class Laco2Exerc2 {
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int idade,sexo,categoria,backend,frontendMulheres,mobileMaior40,fullstackMenor;
+		String continua="Sim";
+		
+		while(!continua.equals("Não")) {
+			System.out.println("Digite a idade: ");
+			idade=leia.nextInt();
+			
+			System.out.println("Digite o sexo: \n"
+					+ "1 - Masculino\n"
+					+ "2 - Feminino\n"
+					+ "3 - Outros");
+			sexo=leia.nextInt();
+		}
+	}
+
+}

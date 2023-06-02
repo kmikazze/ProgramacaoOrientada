@@ -1,0 +1,22 @@
+package Collection;
+import java.util.ArrayList;
+import java.util.Collections;
+public class TesteArray {
+
+	public static void main(String[] args) {
+		ArrayList<Double> notas = new ArrayList<>();
+		
+		notas.add(7.0);
+		notas.add(5.0);
+		notas.add(4.0);
+		notas.add(10.0);
+		
+		//Mostra na tela todas as notas inseridas.
+		System.out.println("\nNotas cadastradas: "+notas.toString());
+		
+		//Mostra uma determinada nota existente na lista.
+		System.out.println("\nA nota 5 existe na lista? "+notas.contains(5d));
+		
+	}
+
+}
