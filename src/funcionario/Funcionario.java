@@ -51,7 +51,7 @@ public class Funcionario {
 		System.out.println("Sexo: "+sexo);
 		System.out.println("Idade: "+idade);
 		System.out.println("Função: "+setor);
-		System.out.println("Salário: "+salario+"00,00");
+		System.out.println("Salário: R$"+salario+"0");
 		System.out.println("============================================");
 	}
 }
